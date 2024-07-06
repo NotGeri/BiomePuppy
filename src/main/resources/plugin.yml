@@ -1,0 +1,4 @@
+name: BiomePuppy
+version: '${version}'
+main: dev.geri.biomepuppy.BiomePuppy
+api-version: '1.21'

@@ -1,0 +1,15 @@
+# A list of foods that will make the puppies take the
+# biome that they are in instead of their parents
+valid-foods:
+  - COOKED_BEEF
+
+variants:
+  ASHEN: [ SNOWY_TAIGA ]
+  BLACK: [ OLD_GROWTH_PINE_TAIGA ]
+  CHESTNUT: [ OLD_GROWTH_SPRUCE_TAIGA ]
+  PALE: [ TAIGA ]
+  RUSTY: [ SPARSE_JUNGLE ]
+  SNOWY: [ GROVE ]
+  SPOTTED: [ SAVANNA_PLATEAU ]
+  STRIPED: [ WOODED_BADLANDS ]
+  WOODS: [ FOREST ]
