@@ -63,6 +63,7 @@ public final class BiomePuppy extends JavaPlugin implements Listener {
         for (Map.Entry<Wolf.Variant, List<Biome>> entry : this.variants.entrySet()) {
             if (entry.getValue().contains(puppy.getLocation().getBlock().getBiome())) {
                 puppy.setVariant(entry.getKey());
+                puppy.setTamed(false);
                 return;
             }
         }
